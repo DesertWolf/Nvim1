@@ -11,8 +11,9 @@ g.loaded_netrwPlugin = 1
 g.netrw_banner = 0
 g.netrw_winsize = 0
 
--- enable line numbers
+-- enable line numbers and relative numbers
 o.number = true
+o.relativenumber = true
 
 -- dont save buffers on closing them
 o.hidden = true
@@ -50,6 +51,12 @@ o.expandtab = true
 o.smartindent = true
 o.autoindent = true
 
+--show matching brackets
+o.showmatch = true
+
+--set clipboard
+o.clipboard = "unnamedplus"
+
 -- enable tabline if a tab is there
 o.showtabline = 1
 
@@ -77,3 +84,6 @@ o.cursorline = true
 
 -- disable swap files
 o.swapfile = false
+
+-- set scrolloff to 999
+o.scrolloff = 999

@@ -17,4 +17,3 @@ Current Plugins:
 -tokyonight.nvim
 
 6/5/24 9pm - Got nvim-treesitter installed and from what I can tell it is working. I will see as I go I am sure
-
