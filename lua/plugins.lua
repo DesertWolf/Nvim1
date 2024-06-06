@@ -37,7 +37,9 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
 
     -- file explorer
     Plug 'nvim-tree/nvim-tree.lua'
-
+    
+    -- treesitter syntax highlighting   
+   vim.cmd([[ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}]])
 
     -- Conda helper
     Plug "nvim-lua/plenary.nvim"
