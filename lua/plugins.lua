@@ -45,6 +45,13 @@ vim.call('plug#begin', '~/.config/nvim/plugged')
     Plug "nvim-lua/plenary.nvim"
     Plug "kmontocam/nvim-conda"   
 
+    -- noice command window
+    Plug 'folke/noice.nvim'
+    Plug 'MunifTanjim/nui.nvim'
+
+    -- nvim-notify
+    Plug 'rcarriga/nvim-notify'
+    
     --Codeium code assist
     Plug ('Exafunction/codeium.vim', { branch = 'main' })
 

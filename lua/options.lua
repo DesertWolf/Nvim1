@@ -87,3 +87,6 @@ o.swapfile = false
 
 -- set scrolloff to 999
 o.scrolloff = 999
+
+--set virtualedit to block mode
+o.virtualedit = "block"
